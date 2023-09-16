@@ -1,0 +1,102 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#searchButton {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#searchButton:hover {
+    background-color: #e64a19;
+}
+
+#homepage {
+    margin: 20px;
+}
+
+.movie-card {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.movie-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: grid;
+}
+
+.movie-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.movie-card p {
+    font-size: 14px;
+    color: #777;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+#movieDetails {
+    display: none;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+#loadingIndicator {
+    display: none;
+    margin: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#errorMessage {
+    display: none;
+    margin: 20px;
+    font-size: 18px;
+    color: #ff5722;
+}

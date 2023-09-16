@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieBox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>MovieBox</h1>
+        <input type="text" id="searchInput" placeholder="Search for a movie">
+        <button id="searchButton">Search</button>
+    </header>
+
+    <!-- Homepage -->
+    <section id="homepage">
+        <h2>Top 10 Movies</h2>
+        <div id="movieGrid"></div>
+    </section>
+
+    <!-- Movie Details -->
+    <section id="movieDetails">
+        <h2 id="movieTitle"></h2>
+        <p id="movieReleaseDate"></p>
+        <p id="movieRuntime"></p>
+        <p id="movieOverview"></p>
+    </section>
+
+    <!-- Loading Indicator -->
+    <div id="loadingIndicator">Loading...</div>
+
+    <!-- Error Message -->
+    <div id="errorMessage"></div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
